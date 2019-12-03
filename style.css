@@ -1,0 +1,52 @@
+h1, h2, h3, h4, p { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-style: normal; 
+    font-variant: normal;   
+} 
+
+h1 {
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 { 
+    font-size: 20px; 
+    text-transform: uppercase;
+} 
+
+h4 {
+    font-size: 20px;
+}
+p { 
+    font-size: 16px;
+    line-height: 30px; 
+}
+
+.color-border{
+    background-color: darkturquoise;
+    padding: 1px 20%;
+}
+
+.text-section {
+    padding: 1px 25%;
+}
+
+@media print {
+    .color-border{
+        padding: 0mm 2cm;
+    }
+    
+    .text-section {
+        padding: 0mm 2.15cm;
+    }
+}
+
+.italic {
+    font-style: italic;
+}
